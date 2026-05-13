@@ -117,6 +117,112 @@ span{
     color: seashell;
     padding-bottom: 30px;
 }
+.number{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: green;
+}
+.number1 p{
+    font-size: small;
+    color: seashell;
+
+}
+.number2 p{
+    font-size: small;
+    color: seashell;
+
+}
+.number3 p{
+    font-size: small;
+    color: seashell;
+
+}
+.number4 p{
+    font-size: small;
+    color: seashell;
+
+}
+
+
+
+.card{
+    background-color:#2B336E;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-self:start;
+    max-width: none;
+    width:calc(100%-40px);
+    padding:20px 170px 70px 170px;
+    gap: 10px;
+    justify-items: stretch;
+   
+  
+    
+}
+.card-section h1{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom:5px;
+    background-color:#2B336E;
+    margin: 0;
+      
+
+   
+}
+.card1{
+  background-color:  #353D80;
+    align-items: center;
+    color: seashell;
+    padding: 30px;
+    border-radius: 10px;
+    grid-column: span 1;
+    grid-row: span 2;
+    
+
+}
+.card2{
+  background-color:  #353D80;
+    align-items: center;
+    color: seashell;
+    padding: 30px;
+    border-radius: 10px;
+     grid-column: span 2;
+    grid-row: span 1;
+
+}
+.card3{
+  background-color:  #353D80;
+    align-items: center;
+    color: seashell;
+    padding: 30px;
+    border-radius: 10px;
+       grid-column: span 2;
+    grid-row: span 1;
+
+}
+.card4{
+  background-color:  #353D80;
+    align-items: center;
+    color: seashell;
+    padding: 30px;
+    border-radius: 10px;
+    grid-column: span 2;
+    grid-row: span 1;
+
+}
+.card5{
+  background-color:  #353D80;
+    align-items: center;
+    color: seashell;
+    padding: 30px;
+    border-radius: 10px;
+       grid-column: span 1;
+    grid-row: span 1;
+
+}
 
 @media screen and (max-width: 900px) {
    
@@ -131,10 +237,7 @@ span{
     justify-content:space-evenly;
     align-items: center;
   }
-        
-    
 
-    
 }
 @media screen and (min-width: 900px) {
     .three-dot {
