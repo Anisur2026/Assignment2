@@ -308,7 +308,7 @@ span{
 }
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 900px) {
    
     .nav-item {
        display: none;
@@ -342,11 +342,25 @@ span{
     display: flex;
     flex-direction:column;
   }
+  .host{
+    display: flex;
+    flex-direction:column;
+     justify-content: center;
+    align-items: center;
+     gap: 20px;
+  }
   .host-image{
     display: flex;
     flex-direction:row;
-
      gap: 20px;
+  }
+  .host-text{
+    text-align: center;
+  }
+  .host-image{
+    display: flex;
+    justify-content:center;
+    gap: 20px;
   }
 
 }
