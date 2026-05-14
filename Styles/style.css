@@ -273,6 +273,12 @@ span{
 .clock span{
     color: green;
 }
+.before-footer{
+    background-color:#2B336E;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
 .host{
      background-color: #353D80;
     display: flex;
@@ -335,6 +341,12 @@ span{
   .vedio{
     display: flex;
     flex-direction:column;
+  }
+  .host-image{
+    display: flex;
+    flex-direction:row;
+
+     gap: 20px;
   }
 
 }
