@@ -144,7 +144,9 @@ span{
     color: seashell;
 
 }
-
+.card-section{
+    background-color:#2B336E;
+}
 
 
 .card{
@@ -155,7 +157,9 @@ span{
     justify-self:start;
     max-width: none;
     width:calc(100%-40px);
-    padding:20px 170px 70px 170px;
+    padding:20px;
+    max-width: 1270PX;
+    margin: 0 auto;
     gap: 10px;
     justify-items: stretch;
    
@@ -249,6 +253,7 @@ span{
     display: grid;
     grid-template-columns: repeat(1,1fr);
     justify-items: center;
+    align-items: center;
   }
 
 }
