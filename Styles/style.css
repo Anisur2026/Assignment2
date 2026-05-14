@@ -116,6 +116,7 @@ span{
     font-size: 13px;
     color: seashell;
     padding-bottom: 30px;
+    word-break: break-all;
 }
 .number{
     display: flex;
@@ -224,7 +225,7 @@ span{
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 576px) {
    
     .nav-item {
        display: none;
