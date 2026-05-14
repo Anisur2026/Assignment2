@@ -185,6 +185,7 @@ span{
     border-radius: 10px;
     grid-column: span 1;
     grid-row: span 2;
+
     
 
 }
@@ -228,6 +229,50 @@ span{
     grid-row: span 1;
 
 }
+.After-card{
+    background-color:#2B336E;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    
+}
+.vedio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+    
+}
+.vedio1{
+    background-color: #353D80;
+    border-radius: 15px;
+    
+}
+.vedio1 p{
+        color: seashell;
+        padding: 10px;
+        text-align: left;
+        size: small;
+}
+.vedio1 h4{
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.vedio1 iframe{
+    border-radius:15px;
+}
+.clock{
+    display: flex;
+    padding: 10px;
+    gap:5px;
+
+}
+.clock span{
+    color: green;
+}
 
 @media screen and (max-width: 576px) {
    
@@ -254,6 +299,14 @@ span{
     grid-template-columns: repeat(1,1fr);
     justify-items: center;
     align-items: center;
+  }
+  .card1{
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  .vedio{
+    display: flex;
+    flex-direction:column;
   }
 
 }
