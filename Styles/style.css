@@ -21,7 +21,7 @@ header{
 .span-first{
     color: white;
 }
-.logo span{
+.span-last{
     color: hotpink;
 }
 .nav-item{
@@ -45,6 +45,18 @@ header{
 .logo{
     margin-left: 30px;
     margin-top:10px;
+}
+.bt{
+    position: absolute;
+    top: 2px;
+    right: 30px;
+
+    background:green;
+    color:black;
+    border: none;
+    padding: 6px 12px;
+    font-size:bold;
+    border-radius: 12px;
 }
 .box1 {
   width:100%;
@@ -71,6 +83,7 @@ header{
 
 .box3 {
   position: absolute;
+    display: inline-block;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -80,6 +93,7 @@ header{
   width: 120px;
   height: 120px;
 }
+
 .banner-text {
     color: white;
   text-align: center;
@@ -338,6 +352,7 @@ footer{
     background-position: center;
     background-repeat: no-repeat;
     min-height: 300px;
+    width: 100%;
     color: white;
     text-align: center;
     padding: 70px 0;
@@ -350,6 +365,7 @@ footer{
     align-items: center;
     gap: 10px;
     margin-top: 20px;
+    
 }
 .footer-image .item{
     flex: 0 0 200px;  
@@ -422,6 +438,11 @@ footer p{
   .vedio{
     display: flex;
     flex-direction:column;
+    justify-content: center;
+    max-width:550px;
+        align-items: center;
+        margin: auto;
+  
   }
   .host{
     display: flex;
@@ -429,6 +450,9 @@ footer p{
      justify-content: center;
     align-items: center;
      gap: 20px;
+    max-width:550px;
+    margin: auto;
+  
   }
   .host-image{
     display: flex;
