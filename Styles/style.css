@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header{
     background:#0F1231;
 }
@@ -16,7 +21,7 @@ header{
 .span-first{
     color: white;
 }
-span{
+.logo span{
     color: hotpink;
 }
 .nav-item{
@@ -33,7 +38,7 @@ span{
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: auto;
+    align-items: center;
     background:#0F1231;
 
 }
@@ -123,6 +128,7 @@ span{
     justify-content: space-evenly;
     align-items: center;
     color: green;
+    padding-bottom: 10px;
 }
 .number1 p{
     font-size: small;
@@ -145,33 +151,31 @@ span{
 
 }
 .card-section{
-    background-color:#2B336E;
+    background: #0F1231;
 }
 
-
 .card{
-    background-color:#2B336E;
+   background: #0F1231;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
-    justify-self:start;
-    max-width: none;
-    width:calc(100%-40px);
-    padding:20px;
-    max-width: 1270PX;
+
+    width: 100%;
+    max-width: 1500px;
+
+    padding: 20px;
     margin: 0 auto;
+
     gap: 10px;
-    justify-items: stretch;
-   
-  
-    
 }
+ 
+
 .card-section h1{
     color: white;
     text-align: center;
     padding-top: 50px;
     padding-bottom:5px;
-    background-color:#2B336E;
+    background:#0F1231;
     margin: 0;
       
 
@@ -229,12 +233,25 @@ span{
     grid-row: span 1;
 
 }
+.vedio-section{
+    background: #0F1231;
+}
 .After-card{
-    background-color:#2B336E;
+    background: #0F1231;
     color: white;
     text-align: center;
     padding: 50px;
+    max-width: 1500px;
+     margin: 0 auto;
+
     
+}
+.After-card h1{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom:30px;
+   
 }
 .vedio{
     display: flex;
@@ -273,11 +290,19 @@ span{
 .clock span{
     color: green;
 }
-.before-footer{
-    background-color:#2B336E;
+.hosting{
+  background: #0F1231;
+}
+.before-foter{
+     background: #0F1231;
     color: white;
     text-align: center;
     padding: 50px;
+     max-width: 1500px;
+     margin: 0 auto;
+}
+.before-foter h1{
+    padding-bottom: 15px;
 }
 .host{
      background-color: #353D80;
@@ -306,6 +331,29 @@ span{
     color: seashell;
     text-align: left;
 }
+
+footer{
+    background-image:url(../assets/footer-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    color: white;
+    text-align: center;
+    padding: 70px 0;
+ 
+}
+.footer-image{
+  display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    gap:20px;
+}
+footer p{
+    font-size: small;
+    margin-top: 20px;
+}
+
 
 
 @media screen and (max-width: 900px) {
@@ -337,6 +385,27 @@ span{
   .card1{
     grid-column: span 1;
     grid-row: span 1;
+    max-width: 550px;
+  }
+    .card2{
+    grid-column: span 1;
+    grid-row: span 1;
+    max-width: 550px;
+  }
+    .card3{
+    grid-column: span 1;
+    grid-row: span 1;
+    max-width: 550px;
+  }
+    .card4{
+    grid-column: span 1;
+    grid-row: span 1;
+    max-width: 550px;
+  }
+    .card5{
+    grid-column: span 1;
+    grid-row: span 1;
+    max-width: 550px;
   }
   .vedio{
     display: flex;
@@ -362,6 +431,22 @@ span{
     justify-content:center;
     gap: 20px;
   }
+  .footer-image{
+   display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    
+  }
+
+ .footer-image .item {
+    flex: 0 0 calc(50% - 10px);
+
+    
+
+}
 
 }
 @media screen and (min-width: 900px) {
